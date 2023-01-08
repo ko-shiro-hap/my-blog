@@ -15,15 +15,22 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='flex'>
-        <section className='relative w-4/5 max-h-144 bg-hero-image bg-cover'>
-          <span className='absolute block inset-0 w-full h-full bg-black opacity-40'></span>
-          <div className='absolute top-20 left-5'>
-            <h1 className='text-6xl text-white font-bold'>CODE<br/>GARAGE</h1>
-          </div>
-        </section>
-        <nav className='w-1/5 h-screen bg-main'></nav>
-      </main>
+      <div className='flex'>
+
+        <main className='w-4/5'>
+          <section className='w-full h-144 bg-hero-image bg-cover'>
+            <span className='absolute block inset-0 w-full h-144 bg-black opacity-40'></span>
+            <div className='absolute top-20 left-5'>
+              <h1 className='text-6xl text-white font-bold'>CODE<br/>GARAGE</h1>
+            </div>
+          </section>
+
+        </main>
+
+        <nav className='sticky w-1/5 h-screen bg-main'>
+
+        </nav>
+      </div>
       {/* <main className={styles.main}>
         <div className={styles.description}>
           <p>

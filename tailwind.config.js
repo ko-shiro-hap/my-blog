@@ -29,6 +29,9 @@ module.exports = {
         main: '#232946',
         secondary: '#FFFFFE'
       },
+      height: {
+        '144': '36rem',
+      },
       maxHeight: {
         '144': '36rem',
       },
