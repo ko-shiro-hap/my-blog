@@ -14,9 +14,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+
+      <main className='flex'>
+        <section className='relative w-4/5 max-h-144 bg-hero-image bg-cover'>
+          <span className='absolute block inset-0 w-full h-full bg-black opacity-40'></span>
+          <div className='absolute top-20 left-5'>
+            <h1 className='text-6xl text-white font-bold'>CODE<br/>GARAGE</h1>
+          </div>
+        </section>
+        <nav className='w-1/5 h-screen bg-main'></nav>
+      </main>
       {/* <main className={styles.main}>
         <div className={styles.description}>
           <p>
