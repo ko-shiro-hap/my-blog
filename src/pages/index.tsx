@@ -21,13 +21,24 @@ export default function Home() {
           <section className='w-full h-144 bg-hero-image bg-cover'>
             <span className='absolute block inset-0 w-full h-144 bg-black opacity-40'></span>
             <div className='absolute top-20 left-5'>
-              <h1 className='text-6xl text-white font-bold'>CODE<br/>GARAGE</h1>
+              <h1 className='text-6xl text-secondary font-bold'>CODE<br/>GARAGE</h1>
+            </div>
+          </section>
+
+          <section>
+            <div className='flex text-center font-medium'>
+              <div className='p-4 w-1/2 text-xl text-main'>
+                <p>おすすめ記事</p>
+              </div>
+              <div className='p-4 w-1/2 bg-main text-xl text-secondary'>
+                <p>新着記事</p>
+              </div>
             </div>
           </section>
 
         </main>
 
-        <nav className='sticky w-1/5 h-screen bg-main'>
+        <nav className='sticky w-1/5 h-screen bg-main border-l border-secondary'>
 
         </nav>
       </div>
