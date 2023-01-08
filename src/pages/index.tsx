@@ -34,6 +34,43 @@ export default function Home() {
                 <p>新着記事</p>
               </div>
             </div>
+
+            <div>
+              <article>
+                <ul className='flex'>
+                  <li>PHP</li>
+                  <li>Docker</li>
+                </ul>
+                <Image src="/images/php-thumbnail.png" width={200} height={200} alt="thumbnail of article" />
+                <div>
+                  <span>2022-01-09</span>
+                  <span>88</span>
+                </div>
+                <ul className='flex'>
+                  <li>
+                    <span>Web</span>
+                  </li>
+                  <li>インフラ</li>
+                </ul>
+              </article>
+              <article>
+                <ul className='flex'>
+                  <li>PHP</li>
+                  <li>Docker</li>
+                </ul>
+                <Image src="/images/php-thumbnail.png" width={200} height={200} alt="thumbnail of article" />
+                <div>
+                  <span>2022-01-09</span>
+                  <span>88</span>
+                </div>
+                <ul className='flex'>
+                  <li>
+                    <span>Web</span>
+                  </li>
+                  <li>インフラ</li>
+                </ul>
+              </article>
+            </div>
           </section>
 
         </main>
