@@ -27,7 +27,8 @@ module.exports = {
       },
       colors: {
         main: '#232946',
-        secondary: '#FFFFFE'
+        secondary: '#FFFFFE',
+        category: '#EEBBC3'
       },
       height: {
         '144': '36rem',
