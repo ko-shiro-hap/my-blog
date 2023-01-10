@@ -244,13 +244,44 @@ export default function Home() {
                 <li>お問い合わせ</li>
               </Link>
             </ul>
-            <span className='text-sm text-gray-400'>&copy; 2023 KOSHIRO IINO</span>
+            <small className='text-sm text-gray-400'>&copy; 2023 KOSHIRO IINO</small>
           </footer>
         </div>
 
 
         <nav className='w-1/5 bg-main border-l border-secondary'>
-
+          <h2>CODE GARAGE</h2>
+          <ul>
+            <Link href='#'>
+              <li>ホーム</li>
+            </Link>
+            <Link href='#'>
+              <li>記事一覧</li>
+            </Link>
+            <Link href='#'>
+              <li>カテゴリー・タグ</li>
+            </Link>
+            <Link href='#'>
+              <li>お問い合わせ</li>
+            </Link>
+          </ul>
+          <div>
+            <input type="text" />
+          </div>
+          <div>
+          <h3>カテゴリー</h3>
+            <ul>
+              <li className='py-0 px-4 bg-category rounded-2xl font-sm'>PHP</li>
+              <li className='py-0 px-4 bg-category rounded-2xl font-sm'>Docker</li>
+            </ul>
+          </div>
+          <div>
+            <h3>タグ</h3>
+            <ul>
+              <li>Web</li>
+              <li>インフラ</li>
+            </ul>
+          </div>
         </nav>
       </div>
       {/* <main className={styles.main}>
