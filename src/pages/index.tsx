@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock, faHeart, faTag} from '@fortawesome/free-solid-svg-icons';
+import { faClock, faCubes, faHeart, faMagnifyingGlass, faTag} from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] })
@@ -41,8 +41,8 @@ export default function Home() {
               <div className='flex flex-wrap p-5'>
                 <article className='w-1/2 p-5'>
                   <ul className='flex gap-2 pb-2'>
-                    <li className='py-0 px-4 bg-category rounded-2xl font-sm'>PHP</li>
-                    <li className='py-0 px-4 bg-category rounded-2xl font-sm'>Docker</li>
+                    <li className='py-0 px-4 bg-category rounded-2xl text-sm'>PHP</li>
+                    <li className='py-0 px-4 bg-category rounded-2xl text-sm'>Docker</li>
                   </ul>
                   <h2 className='pb-5 font-bold text-xl'>[PHP]Docker環境でPDOを使用する方法</h2>
                   <Image src="/images/php-thumbnail.png" alt="thumbnail of article" width={1000} height={1000} className='w-full' />
@@ -58,21 +58,17 @@ export default function Home() {
                   </div>
                   <div className='flex items-center'>
                     <FontAwesomeIcon icon={faTag} className='h-4 text-main' />
-                    <ul className='flex gap-2 pl-1 text-gray-500 underline'>
-                      <li>
-                        <span>Web</span>
-                      </li>
-                      <li>
-                        <span>インフラ</span>
-                      </li>
+                    <ul className='flex gap-2 pl-1 text-gray-500 text-sm underline'>
+                      <li>Web</li>
+                      <li>インフラ</li>
                     </ul>
                   </div>
                 </article>
 
                 <article className='w-1/2 p-5'>
                   <ul className='flex gap-2 pb-2'>
-                    <li className='py-0 px-4 bg-category rounded-2xl font-sm'>PHP</li>
-                    <li className='py-0 px-4 bg-category rounded-2xl font-sm'>Docker</li>
+                    <li className='py-0 px-4 bg-category rounded-2xl text-sm'>PHP</li>
+                    <li className='py-0 px-4 bg-category rounded-2xl text-sm'>Docker</li>
                   </ul>
                   <h2 className='pb-5 font-bold text-xl'>[PHP]Docker環境でPDOを使用する方法</h2>
                   <Image src="/images/php-thumbnail.png" alt="thumbnail of article" width={1000} height={1000} className='w-full' />
@@ -88,21 +84,17 @@ export default function Home() {
                   </div>
                   <div className='flex items-center'>
                     <FontAwesomeIcon icon={faTag} className='h-4 text-main' />
-                    <ul className='flex gap-2 pl-1 text-gray-500 underline'>
-                      <li>
-                        <span>Web</span>
-                      </li>
-                      <li>
-                        <span>インフラ</span>
-                      </li>
+                    <ul className='flex gap-2 pl-1 text-gray-500 text-sm underline'>
+                      <li>Web</li>
+                      <li>インフラ</li>
                     </ul>
                   </div>
                 </article>
 
                 <article className='w-1/2 p-5'>
                   <ul className='flex gap-2 pb-2'>
-                    <li className='py-0 px-4 bg-category rounded-2xl font-sm'>PHP</li>
-                    <li className='py-0 px-4 bg-category rounded-2xl font-sm'>Docker</li>
+                    <li className='py-0 px-4 bg-category rounded-2xl text-sm'>PHP</li>
+                    <li className='py-0 px-4 bg-category rounded-2xl text-sm'>Docker</li>
                   </ul>
                   <h2 className='pb-5 font-bold text-xl'>[PHP]Docker環境でPDOを使用する方法</h2>
                   <Image src="/images/php-thumbnail.png" alt="thumbnail of article" width={1000} height={1000} className='w-full' />
@@ -118,21 +110,17 @@ export default function Home() {
                   </div>
                   <div className='flex items-center'>
                     <FontAwesomeIcon icon={faTag} className='h-4 text-main' />
-                    <ul className='flex gap-2 pl-1 text-gray-500 underline'>
-                      <li>
-                        <span>Web</span>
-                      </li>
-                      <li>
-                        <span>インフラ</span>
-                      </li>
+                    <ul className='flex gap-2 pl-1 text-gray-500 text-sm underline'>
+                      <li>Web</li>
+                      <li>インフラ</li>
                     </ul>
                   </div>
                 </article>
 
                 <article className='w-1/2 p-5'>
                   <ul className='flex gap-2 pb-2'>
-                    <li className='py-0 px-4 bg-category rounded-2xl font-sm'>PHP</li>
-                    <li className='py-0 px-4 bg-category rounded-2xl font-sm'>Docker</li>
+                    <li className='py-0 px-4 bg-category rounded-2xl text-sm'>PHP</li>
+                    <li className='py-0 px-4 bg-category rounded-2xl text-sm'>Docker</li>
                   </ul>
                   <h2 className='pb-5 font-bold text-xl'>[PHP]Docker環境でPDOを使用する方法</h2>
                   <Image src="/images/php-thumbnail.png" alt="thumbnail of article" width={1000} height={1000} className='w-full' />
@@ -148,21 +136,17 @@ export default function Home() {
                   </div>
                   <div className='flex items-center'>
                     <FontAwesomeIcon icon={faTag} className='h-4 text-main' />
-                    <ul className='flex gap-2 pl-1 text-gray-500 underline'>
-                      <li>
-                        <span>Web</span>
-                      </li>
-                      <li>
-                        <span>インフラ</span>
-                      </li>
+                    <ul className='flex gap-2 pl-1 text-gray-500 text-sm underline'>
+                      <li>Web</li>
+                      <li>インフラ</li>
                     </ul>
                   </div>
                 </article>
 
                 <article className='w-1/2 p-5'>
                   <ul className='flex gap-2 pb-2'>
-                    <li className='py-0 px-4 bg-category rounded-2xl font-sm'>PHP</li>
-                    <li className='py-0 px-4 bg-category rounded-2xl font-sm'>Docker</li>
+                    <li className='py-0 px-4 bg-category rounded-2xl text-sm'>PHP</li>
+                    <li className='py-0 px-4 bg-category rounded-2xl text-sm'>Docker</li>
                   </ul>
                   <h2 className='pb-5 font-bold text-xl'>[PHP]Docker環境でPDOを使用する方法</h2>
                   <Image src="/images/php-thumbnail.png" alt="thumbnail of article" width={1000} height={1000} className='w-full' />
@@ -178,21 +162,17 @@ export default function Home() {
                   </div>
                   <div className='flex items-center'>
                     <FontAwesomeIcon icon={faTag} className='h-4 text-main' />
-                    <ul className='flex gap-2 pl-1 text-gray-500 underline'>
-                      <li>
-                        <span>Web</span>
-                      </li>
-                      <li>
-                        <span>インフラ</span>
-                      </li>
+                    <ul className='flex gap-2 pl-1 text-gray-500 text-sm underline'>
+                      <li>Web</li>
+                      <li>インフラ</li>
                     </ul>
                   </div>
                 </article>
 
                 <article className='w-1/2 p-5'>
                   <ul className='flex gap-2 pb-2'>
-                    <li className='py-0 px-4 bg-category rounded-2xl font-sm'>PHP</li>
-                    <li className='py-0 px-4 bg-category rounded-2xl font-sm'>Docker</li>
+                    <li className='px-4 bg-category rounded-2xl text-sm'>PHP</li>
+                    <li className='px-4 bg-category rounded-2xl text-sm'>Docker</li>
                   </ul>
                   <h2 className='pb-5 font-bold text-xl'>[PHP]Docker環境でPDOを使用する方法</h2>
                   <Image src="/images/php-thumbnail.png" alt="thumbnail of article" width={1000} height={1000} className='w-full' />
@@ -208,13 +188,9 @@ export default function Home() {
                   </div>
                   <div className='flex items-center'>
                     <FontAwesomeIcon icon={faTag} className='h-4 text-main' />
-                    <ul className='flex gap-2 pl-1 text-gray-500 underline'>
-                      <li>
-                        <span>Web</span>
-                      </li>
-                      <li>
-                        <span>インフラ</span>
-                      </li>
+                    <ul className='flex gap-2 pl-1 text-gray-500 text-sm underline'>
+                      <li>Web</li>
+                      <li>インフラ</li>
                     </ul>
                   </div>
                 </article>
@@ -223,7 +199,7 @@ export default function Home() {
             </section>
               <div className='text-center pb'>
             <Link href='#'>
-              <p className='inline-block py-5 px-20 bg-main font-xl font-medium text-center text-secondary rounded-xl'>記事一覧へ</p>
+              <p className='inline-block py-5 px-20 bg-main font-medium text-center text-secondary rounded-xl'>記事一覧へ</p>
             </Link>
               </div>
 
@@ -249,9 +225,9 @@ export default function Home() {
         </div>
 
 
-        <nav className='w-1/5 bg-main border-l border-secondary'>
-          <h2>CODE GARAGE</h2>
-          <ul>
+        <nav className='fixed top-0 right-0 p-5 w-1/5 h-screen bg-main border-l border-secondary text-secondary text-right leading-relaxed'>
+          <h2 className='text-2xl font-bold'>CODE<br/>GARAGE</h2>
+          <ul className='py-10'>
             <Link href='#'>
               <li>ホーム</li>
             </Link>
@@ -265,21 +241,24 @@ export default function Home() {
               <li>お問い合わせ</li>
             </Link>
           </ul>
-          <div>
-            <input type="text" />
+          <div className='w-full border-b border-secondary'>
+            <input type="text" className='bg-transparent text-sm text-secondary focus:outline-none' placeholder='カテゴリー・タグ検索' />
+            <FontAwesomeIcon icon={faMagnifyingGlass} className='inline-block pl-2 h-4' />
           </div>
-          <div>
-          <h3>カテゴリー</h3>
-            <ul>
-              <li className='py-0 px-4 bg-category rounded-2xl font-sm'>PHP</li>
-              <li className='py-0 px-4 bg-category rounded-2xl font-sm'>Docker</li>
+          <div className='pt-10'>
+          <h3 className='inline-block font-medium'>カテゴリー</h3>
+          <FontAwesomeIcon icon={faCubes} className='inline-block pl-2 h-4' />
+            <ul className='flex gap-2 pt-2 justify-end flex-wrap text-main'>
+              <li className='px-4 bg-category rounded-2xl text-sm'>PHP</li>
+              <li className='px-4 bg-category rounded-2xl text-sm'>Docker</li>
             </ul>
           </div>
-          <div>
-            <h3>タグ</h3>
-            <ul>
-              <li>Web</li>
-              <li>インフラ</li>
+          <div className='pt-5'>
+            <h3 className='inline-block font-medium'>タグ</h3>
+          <FontAwesomeIcon icon={faTag} className='inline-block pl-2 h-4' />
+            <ul className='flex gap-2 pt-2 justify-end flex-wrap text-main'>
+              <li className='px-4 bg-gray-400 rounded text-sm'>Web</li>
+              <li className='px-4 bg-gray-400 rounded text-sm'>インフラ</li>
             </ul>
           </div>
         </nav>
