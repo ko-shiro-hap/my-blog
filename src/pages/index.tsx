@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faCubes, faHeart, faMagnifyingGlass, faTag} from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 import Hero from 'components/Hero';
+import Sidebar from 'components/Sidebar';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -226,8 +227,8 @@ export default function Home() {
           </footer>
         </div>
 
-
-        <nav className='fixed top-0 right-0 p-5 w-1/5 h-screen bg-main border-l border-secondary text-secondary text-right leading-relaxed'>
+        <Sidebar></Sidebar>
+        {/* <nav className='fixed top-0 right-0 p-5 w-1/5 h-screen bg-main border-l border-secondary text-secondary text-right leading-relaxed'>
           <h2 className='text-2xl font-bold'>CODE<br/>GARAGE</h2>
           <ul className='py-10'>
             <Link href='#'>
@@ -263,7 +264,7 @@ export default function Home() {
               <li className='px-4 bg-gray-400 rounded text-sm'>インフラ</li>
             </ul>
           </div>
-        </nav>
+        </nav> */}
       </div>
       {/* <main className={styles.main}>
         <div className={styles.description}>
