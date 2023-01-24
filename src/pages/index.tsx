@@ -34,8 +34,10 @@ export default function Home() {
               </Link>
             </div>
           </main>
+
           <Footer></Footer>
         </div>
+
         <Sidebar></Sidebar>
       </div>
 
