@@ -7,6 +7,7 @@ import Link from 'next/link';
 import Hero from 'components/Hero';
 import Sidebar from 'components/Sidebar';
 import Footer from 'components/Footer';
+import ArticleLinks from 'components/ArticleLinks';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,14 +26,15 @@ export default function Home() {
         <div className='w-4/5'>
           <Hero></Hero>
           <main>
-              <div className='flex text-center font-medium'>
+              {/* <div className='flex text-center font-medium'>
                 <Link href="#" className='p-4 w-1/2 text-xl text-main'>
                     <p>おすすめ記事</p>
                 </Link>
                 <Link href="#" className='p-4 w-1/2 bg-main text-xl text-secondary'>
                     <p>新着記事</p>
                 </Link>
-              </div>
+              </div> */}
+              <ArticleLinks></ArticleLinks>
             <section>
 
               <div className='flex flex-wrap p-5'>
