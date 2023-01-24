@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faCubes, faHeart, faMagnifyingGlass, faTag} from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
+import Hero from 'components/Hero';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,12 +22,13 @@ export default function Home() {
 
         <div className='w-4/5'>
           <main>
-            <section className='w-full h-144 bg-hero-image bg-cover'>
+            {/* <section className='w-full h-144 bg-hero-image bg-cover'>
               <span className='absolute block inset-0 w-4/5 h-144 bg-black opacity-40'></span>
               <div className='absolute top-20 left-5'>
                 <h1 className='text-6xl text-secondary font-bold'>CODE<br/>GARAGE</h1>
               </div>
-            </section>
+            </section> */}
+            <Hero></Hero>
 
             <section>
               <div className='flex text-center font-medium'>
