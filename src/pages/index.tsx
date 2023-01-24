@@ -6,6 +6,7 @@ import { faClock, faCubes, faHeart, faMagnifyingGlass, faTag} from '@fortawesome
 import Link from 'next/link';
 import Hero from 'components/Hero';
 import Sidebar from 'components/Sidebar';
+import Footer from 'components/Footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -208,7 +209,8 @@ export default function Home() {
 
           </main>
 
-          <footer className='py-10 px-5 text-center'>
+          <Footer></Footer>
+          {/* <footer className='py-10 px-5 text-center'>
             <ul className='flex gap-20 py-10 border-t justify-center'>
               <Link href='#'>
                 <li>ホーム</li>
@@ -224,7 +226,7 @@ export default function Home() {
               </Link>
             </ul>
             <small className='text-sm text-gray-400'>&copy; 2023 KOSHIRO IINO</small>
-          </footer>
+          </footer> */}
         </div>
 
         <Sidebar></Sidebar>
